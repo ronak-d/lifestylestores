@@ -1,0 +1,38 @@
+.f_whole{
+    margin: 1rem;
+}
+.f_main{
+    display: flex;
+    justify-content: space-between;
+    /* grid-template-columns: auto auto auto auto auto; */
+
+}
+.f_main2{
+    display:flex;
+    /* grid-template-columns: auto auto auto; */
+    justify-content: flex-start;
+}
+.f_div_2{
+    margin-left: 16px;
+    margin-right: 200px;
+    /* border: 1px solid black; */
+
+}
+
+.f_h{
+    font-family: ProximaNova-Bold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+.f_div{
+    padding: 1rem;
+    /* border: 1px solid black; */
+}
+
+.f_sub_head{
+    font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    color: #5d5e5c;
+    cursor:pointer;
+    line-height: 1.25px;
+    font-size: 14px;
+    font-weight: 400;
+}
