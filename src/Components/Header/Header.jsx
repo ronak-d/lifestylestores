@@ -1,45 +1,46 @@
 import React from 'react'
+import styles from "./Header.module.css"
 
  const Header = () => {
   return (
     <div>
     <div id="topBar">
-        <div>
-            <a href="">
+        <div >
+            <div className={styles.h_top_bar}>
                 <span class="icon-text-middle">
                     <img class="icon" src="https://cdn-icons-png.flaticon.com/128/617/617423.png" alt=""/>
                     <h5>Free Shipping</h5>
                 </span>
-            </a>
-            <a href="">
+            </div>
+            <div className={styles.h_top_bar}>
                 <span class="icon-text-middle">
                     <img class="icon" src="https://cdn-icons-png.flaticon.com/128/1611/1611323.png" alt=""/>
                     <h5>Click Collect</h5>
                 </span>
-            </a>
-            <a href="">
+            </div>
+            <div className={styles.h_top_bar}>
                 <span class="icon-text-middle">
                     <img class="icon" src="https://cdn-icons-png.flaticon.com/128/726/726570.png" alt=""/>
                     <h5>Return To Store</h5>
                 </span>
-            </a>
+            </div>
         </div>
         <div class="icon-text-middle">
-            <a href="">
+            <div className={styles.h_top_bar}>
                 <span class="icon-text-middle">
                     <h6>Download Our Apps</h6>
                 </span>
-            </a>
-            <a href="">
+            </div>
+            <div className={styles.h_top_bar}>
                 <span class="icon-text-middle">
                     <h6>Store Locator</h6>
                 </span>
-            </a>
-            <a href="">
+            </div>
+            <div className={styles.h_top_bar}>
                 <span class="icon-text-middle">
                     <h6>Help</h6>
                 </span>
-            </a>
+            </div>
         </div>
     </div>
 
