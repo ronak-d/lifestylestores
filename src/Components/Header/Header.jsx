@@ -4,40 +4,41 @@ import styles from "./Header.module.css"
  const Header = () => {
   return (
     <div>
-    <div id="topBar">
-        <div >
+    <div className={styles.l}>
+        <div className={styles.top_left_bar} >
             <div className={styles.h_top_bar}>
-                <span class="icon-text-middle">
-                    <img class="icon" src="https://cdn-icons-png.flaticon.com/128/617/617423.png" alt=""/>
+                <span className={styles.text_top}>
+                    <img className={styles.icon} src="https://cdn-icons-png.flaticon.com/128/617/617423.png" alt=""/>
                     <h5>Free Shipping</h5>
                 </span>
             </div>
             <div className={styles.h_top_bar}>
-                <span class="icon-text-middle">
-                    <img class="icon" src="https://cdn-icons-png.flaticon.com/128/1611/1611323.png" alt=""/>
+                <span className={styles.text_top}>
+                    <img className={styles.icon} src="https://cdn-icons-png.flaticon.com/128/1611/1611323.png" alt=""/>
                     <h5>Click Collect</h5>
                 </span>
             </div>
             <div className={styles.h_top_bar}>
-                <span class="icon-text-middle">
-                    <img class="icon" src="https://cdn-icons-png.flaticon.com/128/726/726570.png" alt=""/>
+                <span className={styles.text_top}>
+                    <img className={styles.icon} src="https://cdn-icons-png.flaticon.com/128/726/726570.png" alt=""/>
                     <h5>Return To Store</h5>
                 </span>
             </div>
         </div>
-        <div class="icon-text-middle">
+
+        <div className={styles.top_text_left}>
             <div className={styles.h_top_bar}>
-                <span class="icon-text-middle">
+                <span className={styles.text_top}>
                     <h6>Download Our Apps</h6>
                 </span>
             </div>
             <div className={styles.h_top_bar}>
-                <span class="icon-text-middle">
+                <span className={styles.text_top}>
                     <h6>Store Locator</h6>
                 </span>
             </div>
             <div className={styles.h_top_bar}>
-                <span class="icon-text-middle">
+                <span className={styles.text_top}>
                     <h6>Help</h6>
                 </span>
             </div>
@@ -86,7 +87,7 @@ import styles from "./Header.module.css"
                 <a id="basket" >
                     <span class="icon-text-middle">
                         <h4>Basket</h4>
-                        <img class="icon" src="https://cdn-icons-png.flaticon.com/512/37/37464.png" alt=""/>
+                        <img ClassName={styles.icon} src="https://cdn-icons-png.flaticon.com/512/37/37464.png" alt=""/>
                     </span>
                 </a>
             </nav>

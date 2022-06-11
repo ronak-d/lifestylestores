@@ -1,0 +1,28 @@
+.topBar{
+    border: 1px solid red;
+    display:flex;
+}
+.text_top{
+    border: 1px solid red;
+    display:flex;
+}
+.icon{
+    height:12%;
+    width: 20%;
+}
+.top_left_bar{
+    display: flex;
+     justify-content: flex-start;
+
+}
+.top_text_left{
+    border: 2px solid black;
+    display: flex;
+    justify-content: flex-end;
+}
+.h_top_bar{
+    padding: 0px 20px;
+    margin-right: 10px;
+}
+
+/* ---- */
