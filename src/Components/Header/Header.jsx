@@ -4,7 +4,7 @@ import styles from "./Header.module.css"
  const Header = () => {
   return (
     <div>
-    <div className={styles.l}>
+    <div className={styles.topBar}>
         <div className={styles.top_left_bar} >
             <div className={styles.h_top_bar}>
                 <span className={styles.text_top}>
@@ -28,19 +28,13 @@ import styles from "./Header.module.css"
 
         <div className={styles.top_text_left}>
             <div className={styles.h_top_bar}>
-                <span className={styles.text_top}>
                     <h6>Download Our Apps</h6>
-                </span>
             </div>
             <div className={styles.h_top_bar}>
-                <span className={styles.text_top}>
                     <h6>Store Locator</h6>
-                </span>
             </div>
             <div className={styles.h_top_bar}>
-                <span className={styles.text_top}>
                     <h6>Help</h6>
-                </span>
             </div>
         </div>
     </div>
@@ -48,28 +42,28 @@ import styles from "./Header.module.css"
 
     <div>
         <div>
-            <nav id="navbar" class="icon-text-middle sticky">
-                <a href="../pages/index.html" >
+            <nav className = {styles.mid_nav}>
+                <a>
                     <span class="icon-text-middle">
                         <span class="logo"></span>
                     </span>
                 </a>
-                <a href="" id="women" >
+                <a>
                     <span class="icon-text-middle">
                         <h4><span>Women</span></h4>
                     </span>
                 </a>
-                <a href="" id="men" >
+                <a>
                     <span class="icon-text-middle">
                         <h4><span>Men</span></h4>
                     </span>
                 </a>
-                <a href="" id="kids" >
+                <a>
                     <span class="icon-text-middle">
                         <h4><span>Kids</span></h4>
                     </span>
                 </a>
-                <a href="" id="shoesAndBags">
+                <a >
                     <span class="icon-text-middle">
                         <h4><span>Shoes & Bags</span></h4>
                     </span>
@@ -79,12 +73,12 @@ import styles from "./Header.module.css"
                     <input class="search-bar" type="text" placeholder="What are you looking for?" />
                 </span>
 
-                <a href="signup-or-signin-mob.html" id="signUpSignin">
+                <a>
                     <span class="icon-text-middle">
                         <h4><span>Sign Up - Sign In</span></h4>
                     </span>
                 </a>
-                <a id="basket" >
+                <a>
                     <span class="icon-text-middle">
                         <h4>Basket</h4>
                         <img ClassName={styles.icon} src="https://cdn-icons-png.flaticon.com/512/37/37464.png" alt=""/>
