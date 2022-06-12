@@ -5,7 +5,7 @@ function App() {
   return (
     // always in react it imports with first caital letter only
     <div className="App">
-      <Footer />
+      {/* <Footer /> */}
       <Header />
     </div>
   );
