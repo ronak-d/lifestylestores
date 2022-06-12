@@ -45,8 +45,10 @@ import styles from "./Header.module.css"
             <nav className = {styles.mid_nav}>
                 <a>
                     <span class="icon-text-middle">
-                        <span className={styles.logo}>
-                            {/* <img src="https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/Sprite_icons.svg" /> */}
+                        <span >
+                            <img 
+                            className={styles.logo}
+                            src="https://vrchennai.com/UploadFile/Storeimage/Lifestyle-big.png" />
                         </span>
                     </span>
                 </a>
@@ -83,7 +85,7 @@ import styles from "./Header.module.css"
                 <a>
                     <span class="icon-text-middle">
                         <h4>Basket</h4>
-                        <img ClassName={styles.icon} src="https://cdn-icons-png.flaticon.com/512/37/37464.png" alt=""/>
+                        <img className={styles.basket} src="https://cdn-icons-png.flaticon.com/512/37/37464.png" alt=""/>
                     </span>
                 </a>
             </nav>
