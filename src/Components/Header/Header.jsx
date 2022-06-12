@@ -45,7 +45,9 @@ import styles from "./Header.module.css"
             <nav className = {styles.mid_nav}>
                 <a>
                     <span class="icon-text-middle">
-                        <span class="logo"></span>
+                        <span className={styles.logo}>
+                            {/* <img src="https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/Sprite_icons.svg" /> */}
+                        </span>
                     </span>
                 </a>
                 <a>
