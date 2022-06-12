@@ -30,3 +30,14 @@
 }
 
 /* ---- */
+/*     \\\\\\\\\\\\\\\\\ */
+
+.logo{
+    border:2px solid black;
+    width: 10vw;
+    height: 50px;
+    padding: 40px;
+    background: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/Sprite_icons.svg) -220px -180px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
