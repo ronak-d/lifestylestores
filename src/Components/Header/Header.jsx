@@ -27,16 +27,11 @@ import styles from "./Header.module.css"
             </div>
 
             <div className={styles.top_text_left}>
-                <div className={styles.h_top_bar}>
-                    <h6>Download Our Apps</h6>
-                </div>
-                <div className={styles.h_top_bar}>
-                    <h6>Store Locator</h6>
-                </div>
-                <div className={styles.h_top_bar}>
-                    <h6>Help</h6>
-                </div>
+            <div className={styles.up_nav_h6}>Download our store</div>
+            <div className={styles.up_nav_h6}> Store Locator</div>
+            <div className={styles.up_nav_h6}>Help</div>
             </div>
+
         </div>
 
 
@@ -85,7 +80,7 @@ import styles from "./Header.module.css"
 
         </nav>
 
-      <div>
+      <div className={styles.nav_3rd_line}>
            <div id="add">Free Shipping On All Orders + Get 15% Off on 2,999 and Above.Use Code SHOP15 </div>
       </div>
 
