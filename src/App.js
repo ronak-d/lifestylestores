@@ -1,5 +1,6 @@
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
+import { MenPage } from "./Pages/MenPage";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       {/* <Header /> */}
       {/* <Footer /> */}
+      <MenPage />
     </div>
   );
 }
