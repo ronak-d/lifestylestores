@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axiosApiCall from './Axios/AxiosCall';
+import styles from '../Components/Prod.module.css';
 
 export const Mentopwear = () => {
 
@@ -20,13 +21,19 @@ export const Mentopwear = () => {
     },[])
     console.log("data",data);
   return (
-    <div>
+    <div className={styles.main_prod_box}>
     {
       data?.map((prod)=>{
         return(
           <div>
             {
-              prod.brand
+              <div className={styles.prod_box}>
+                <div>
+                  <img className={styles.prod_imgs} src={prod.img} />
+                  <div className={styles.prod_price}>{`₹ ${prod.price}`}</div>
+                  <div className={styles.prod_brand}>{prod.brand}</div>
+                </div>
+              </div>
             }
           </div>
         )

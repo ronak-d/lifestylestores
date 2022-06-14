@@ -1,0 +1,29 @@
+.main_prod_box{
+    /* border:2px solid blue; */
+    margin: 12px;
+    display: flex;
+}
+.prod_box{
+    border: 2px solid black;
+    margin: 12px;
+    height:90%;
+    margin-bottom:13%
+    /* flex-wrap: wrap; */
+    
+}
+.prod_imgs{
+    width: 100%;
+    height: 90%;
+}
+.prod_price{
+    font-size: 14px;
+    font-family: ProximaNova-Semibold, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-weight: 570;
+    padding: 7px
+}
+.prod_brand{
+    font-size: 14px;
+    font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: 400;
+    padding: 7px;
+}
