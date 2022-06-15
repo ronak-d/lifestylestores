@@ -11,8 +11,8 @@ export const MenPage = () => {
   return (
     <div>
       <Mentopwear/>
-      <Menbottomwear/>
-      <Menactivewear/>
+      {/* <Menbottomwear/>
+      <Menactivewear/> */}
     </div>
   )
 }

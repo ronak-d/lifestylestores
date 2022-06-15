@@ -4,25 +4,29 @@ import styles from '../Components/Prod.module.css';
 
 export const Mentopwear = () => {
 
-    const [Loading, setLoading] = useState(true);
+    const [loading, setLoading] = useState(true);
     const [data, setData] = useState(null);
 
     useEffect(() =>{
-        setLoading(true);
-        
+      setLoading(true);
+      
         axiosApiCall("mens", "get", null )
         .then((res)=>{
           // console.log(res.data,res.data["men-topwear"],"test")
+          setLoading(false);
           setData(res.data["men-topwear"]);
         })
         .catch((err)=>{
+          setLoading(false);
           console.log(err)
         })        
     },[])
     console.log("data",data);
+
   return (
     <div className={styles.main_prod_box}>
     {
+      
       data?.map((prod)=>{
         return(
           <div>
