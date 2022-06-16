@@ -1,9 +1,21 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from "./Header.module.css"
 import { Link } from "react-router-dom";
+import axiosApiCall from '../Axios/AxiosCall';
 
 
  const Header = () => {
+
+    const [cartItem, setCartItem] =useState([]);
+
+    useEffect(() =>{
+        axiosApiCall("cart","get",null)
+        .then((response) => {
+            setCartItem(response.data)
+          console.log("responsekids",response)
+        })
+    },[])
+
   return (
     <div>
         <div className={styles.topBar}>
@@ -47,19 +59,19 @@ import { Link } from "react-router-dom";
                 </Link>
 
                 <div className={styles.mid_nav_text}>
-                    <Link to=""> <h4>Women</h4> </Link>
+                    <Link to="/women"> <h4>Women</h4> </Link>
                 </div>
 
                 <span className={styles.mid_nav_text}>
-                <Link to=""> <h4>Men</h4> </Link>
+                <Link to="/men"> <h4>Men</h4> </Link>
                 </span>
 
                 <span className={styles.mid_nav_text}>
-                <Link to=""> <h4>Kids</h4> </Link>
+                <Link to="/kids"> <h4>Kids</h4> </Link>
                 </span>
 
                 <span className={styles.mid_nav_text}>
-                <Link to=""> <h4>Shops&Bags</h4> </Link>
+                    <h4>Shops&Bags</h4>
                 </span>
 
                 <span className={styles.mid_nav_text}>
@@ -79,6 +91,7 @@ import { Link } from "react-router-dom";
                 <span className={styles.text_basket}>
                     <img className={styles.basket} src="https://cdn-icons-png.flaticon.com/512/37/37464.png" />
                     <h4>Basket</h4>
+                    <p className={styles.basket}>{cartItem?.length}</p>
                 </span>
             </div>
 

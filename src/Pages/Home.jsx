@@ -5,8 +5,7 @@ import Header from '../Components/Header/Header'
 export const Home = () => {
   return (
     <div>
-        <Header/>
-        <Footer/>
+      home
     </div>
   )
 }
