@@ -90,7 +90,9 @@ import axiosApiCall from '../Axios/AxiosCall';
 
                 <span className={styles.text_basket}>
                     <img className={styles.basket} src="https://cdn-icons-png.flaticon.com/512/37/37464.png" />
+                    <Link to="/cart">
                     <h4>Basket</h4>
+                    </Link>
                     <p className={styles.basket}>{cartItem?.length}</p>
                 </span>
             </div>
