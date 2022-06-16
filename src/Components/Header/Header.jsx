@@ -40,24 +40,26 @@ import { Link } from "react-router-dom";
         <nav className={styles.mid_nav}>
 
             <div className={styles.mid_nav1}>
+                <Link to="/">
                     <img
                     className={styles.logo}
                     src="https://vrchennai.com/UploadFile/Storeimage/Lifestyle-big.png" />
+                </Link>
 
                 <div className={styles.mid_nav_text}>
-                    <h4>Women</h4>
+                    <Link to=""> <h4>Women</h4> </Link>
                 </div>
 
                 <span className={styles.mid_nav_text}>
-                    <h4>Men</h4>
+                <Link to=""> <h4>Men</h4> </Link>
                 </span>
 
                 <span className={styles.mid_nav_text}>
-                    <h4>Kids</h4>
+                <Link to=""> <h4>Kids</h4> </Link>
                 </span>
 
                 <span className={styles.mid_nav_text}>
-                    <h4>Shops&Bags</h4>
+                <Link to=""> <h4>Shops&Bags</h4> </Link>
                 </span>
 
                 <span className={styles.mid_nav_text}>
