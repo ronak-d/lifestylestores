@@ -28,7 +28,7 @@ export const Kidsboys = () => {
                 {
                   <div className={styles.prod_box}>
                     <div>
-                      <img className={styles.prod_imgs} src={prod.img} />
+                      <img className={styles.prod_imgs} src={prod.img[0]} />
     
                       <div className={styles.prod_price_btn}>
                         <div className={styles.prod_price}>{`₹ ${prod.price}`}</div>
