@@ -59,7 +59,7 @@ import axiosApiCall from '../Axios/AxiosCall';
                     {/* </Link> */}
 
                 <div className={styles.mid_nav_text}>
-                    <Link to="/women"> <h4>Women</h4> </Link>
+                    <Link to="/women"> <p className={styles.nav_text}>Women</p> </Link>
                 </div>
 
                 <span className={styles.mid_nav_text}>
