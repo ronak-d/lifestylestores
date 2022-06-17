@@ -1,11 +1,8 @@
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
-import { Home } from "./Pages/Home";
-import { KidsPage } from "./Pages/KidsPage";
-import { MenPage } from "./Pages/MenPage";
-import { WomenPage } from "./Pages/WomenPage";
 import { BrowserRouter } from "react-router-dom";
 import { AllRoutes } from "./Routes/AllRoutes";
+import Landing from "./Pages/Landing";
 
 function App() {
 
@@ -16,7 +13,7 @@ function App() {
     <div className="App">
       <Header />
       <AllRoutes/>
-      <Home/>
+      <Landing/>
       <Footer />
     </div>
     </BrowserRouter>

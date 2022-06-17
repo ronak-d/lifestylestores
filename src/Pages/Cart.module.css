@@ -1,0 +1,25 @@
+.cart_box{
+    border: 2px solid rgb(181, 172, 172);
+    width: 30%;
+    margin: auto;
+    height: auto;
+    padding: 22px;
+    display: flex;
+}
+
+.cart_imgs{
+    width:50%;
+}
+
+.cart_price_btn{
+    /* border: 2px solid red; */
+    /* display: inline-block; */
+    padding: 5px;
+
+}
+
+.prod_brand{
+    /* border: 2px solid red; */
+    display: block;
+    padding: 5px;
+}

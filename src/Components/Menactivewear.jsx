@@ -34,7 +34,8 @@ export const Menactivewear = () => {
                   <div className={styles.prod_price_btn}>
                     <div className={styles.prod_price}>{`₹ ${prod.price}`}</div>
                     <div onClick={() => handleClick(prod)} className={styles.prod_add_cart}>
-                      <button className={styles.prod_cart_btn}>Add To Cart</button></div>
+                      <button className={styles.prod_cart_btn}>Add To Cart</button>
+                    </div>
                   </div>
 
                   <div className={styles.prod_brand}>{prod.brand}</div>

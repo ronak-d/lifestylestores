@@ -52,14 +52,14 @@ import axiosApiCall from '../Axios/AxiosCall';
         <nav className={styles.mid_nav}>
 
             <div className={styles.mid_nav1}>
-                {/* <Link to="/"> */}
+                <Link to="/">
                     <img
                     className={styles.logo}
                     src="https://vrchennai.com/UploadFile/Storeimage/Lifestyle-big.png" />
-                    {/* </Link> */}
+                    </Link>
 
                 <div className={styles.mid_nav_text}>
-                    <Link to="/women"> <p className={styles.nav_text}>Women</p> </Link>
+                    <Link to="/women"> <h4 className={styles.nav_text}>Women</h4> </Link>
                 </div>
 
                 <span className={styles.mid_nav_text}>
