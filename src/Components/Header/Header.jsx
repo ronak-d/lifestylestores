@@ -7,7 +7,7 @@ import axiosApiCall from '../Axios/AxiosCall';
  const Header = () => {
 
     const [cartItem, setCartItem] =useState([]);
-
+// using cart?length to show thee counter of basket
     useEffect(() =>{
         axiosApiCall("cart","get",null)
         .then((response) => {
@@ -52,11 +52,11 @@ import axiosApiCall from '../Axios/AxiosCall';
         <nav className={styles.mid_nav}>
 
             <div className={styles.mid_nav1}>
-                <Link to="/">
+                {/* <Link to="/"> */}
                     <img
                     className={styles.logo}
                     src="https://vrchennai.com/UploadFile/Storeimage/Lifestyle-big.png" />
-                </Link>
+                    {/* </Link> */}
 
                 <div className={styles.mid_nav_text}>
                     <Link to="/women"> <h4>Women</h4> </Link>
@@ -93,7 +93,7 @@ import axiosApiCall from '../Axios/AxiosCall';
                     <Link to="/cart">
                     <h4>Basket</h4>
                     </Link>
-                    <p className={styles.basket}>{cartItem?.length}</p>
+                    <p className={styles.basket_count}>{cartItem?.length}</p>
                 </span>
             </div>
 
