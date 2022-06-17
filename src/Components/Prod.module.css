@@ -20,7 +20,19 @@
     font-size: 14px;
     font-family: ProximaNova-Semibold, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     font-weight: 570;
-    padding: 7px
+    padding: 7px;
+    /* padding-right: 50%; */
+
+}
+.prod_price_btn{
+    display: flex;
+    justify-content:space-between;
+}
+.prod_add_cart{
+    /* border: 2px solid black; */
+    padding:5px;
+    margin: 3px;
+    background-color:yellow;
 }
 .prod_brand{
     font-size: 14px;

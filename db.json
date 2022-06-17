@@ -1320,69 +1320,6 @@
       "img": [
         "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010698237-White-1000010698237_01-2100.jpg"
       ]
-    },
-    {
-      "id": 34,
-      "brand": "UCLA",
-      "category": "T-Shirt",
-      "price": "899",
-      "discount": "25",
-      "fitting": "Regular Fit",
-      "color": [
-        "green",
-        "red",
-        "green"
-      ],
-      "sizes": [
-        "s",
-        "m",
-        "l"
-      ],
-      "img": [
-        "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000005978744-30119-Green-Dark-Green-1000005978744-30119_01-2100.jpg"
-      ]
-    },
-    {
-      "id": 32,
-      "brand": "POLO",
-      "category": "T-shirt",
-      "price": "849",
-      "discount": "15",
-      "fitting": "Regular Fit",
-      "color": [
-        "black",
-        "red",
-        "green"
-      ],
-      "sizes": [
-        "s",
-        "m",
-        "l"
-      ],
-      "img": [
-        "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009811686-Black-Black-1000009811686_01-2100.jpg"
-      ]
-    },
-    {
-      "id": 35,
-      "brand": "POLO",
-      "category": "T-shirt",
-      "price": "1199",
-      "discount": "40",
-      "fitting": "Regular Fit",
-      "color": [
-        "orange",
-        "red",
-        "green"
-      ],
-      "sizes": [
-        "s",
-        "m",
-        "l"
-      ],
-      "img": [
-        "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010314170-Orange-Orange-1000010314170_01-2100.jpg"
-      ]
     }
   ]
 }
