@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react'
 import axiosApiCall from '../Components/Axios/AxiosCall';
-import { handleRemove } from '../Components/SubPages/CartRemoveItem';
+// import { handleRemove } from '../Components/SubPages/CartRemoveItem';
 import styles from './Cart.module.css'
 
 export const Cart = () => {
