@@ -1,10 +1,10 @@
 # Individual project made using React.
 
-- Maintained userflow
-- landing page 
-- Products page as clothes page
-
-# Getting Started with Create React App
+- Maintained userflow.
+- landing page.
+- Products page as clothes page.
+- Cart page.
+- Made Men's, Women's, Kid's section.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
