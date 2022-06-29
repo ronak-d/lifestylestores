@@ -1,4 +1,8 @@
-- Individual project made using React.
+# Individual project made using React.
+
+- Maintained userflow
+- landing page 
+- Products page as clothes page
 
 # Getting Started with Create React App
 
