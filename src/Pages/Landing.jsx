@@ -1,6 +1,8 @@
 import React from "react";
 import { Carousel1 } from "./Carousel"
 import './landing.css';
+
+
 const Landing = () =>{
 
     const Circledata = [
@@ -71,13 +73,8 @@ const Landing = () =>{
         {image : "https://lmsin.net/cdn-cgi/image/w=500,q=60,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/LS-MEN-6modularblock-oneBythree-C-Men-04March2022A.jpg"  },
      ]
 
-
-
-
-
-
-
     return <div id="Container">
+        
        <div id="Main">
 
        <Carousel1></Carousel1>
