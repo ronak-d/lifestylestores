@@ -1301,6 +1301,28 @@
   ],
   "cart": [
     {
+      "id": 25,
+      "brand": "JUNIORS Girls Sol",
+      "category": "Pants",
+      "price": "400",
+      "discount": "50",
+      "fitting": "Regular Fit",
+      "color": [
+        "white",
+        "red",
+        "green"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l"
+      ],
+      "img": [
+        "https://lmsin.net/cdn-cgi/image/h=235,w=235,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009313523-Brown-BURGANDY-1000009313523_01-2100.jpg",
+        "https://lmsin.net/cdn-cgi/image/h=235,w=235,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009313523-Black-BLACK-1000009313523_01-2100.jpg"
+      ]
+    },
+    {
       "id": 33,
       "brand": "LOUIS PHILIPPE",
       "category": "Casual Shirt",
@@ -1322,14 +1344,14 @@
       ]
     },
     {
-      "id": 34,
-      "brand": "UCLA",
-      "category": "T-Shirt",
-      "price": "899",
-      "discount": "25",
+      "id": 32,
+      "brand": "POLO",
+      "category": "T-shirt",
+      "price": "849",
+      "discount": "15",
       "fitting": "Regular Fit",
       "color": [
-        "green",
+        "black",
         "red",
         "green"
       ],
@@ -1339,7 +1361,30 @@
         "l"
       ],
       "img": [
-        "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000005978744-30119-Green-Dark-Green-1000005978744-30119_01-2100.jpg"
+        "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009811686-Black-Black-1000009811686_01-2100.jpg"
+      ]
+    },
+    {
+      "id": 26,
+      "brand": "FAME FOREVER KS Girls",
+      "category": "Frok",
+      "price": "700",
+      "discount": "50",
+      "fitting": "Regular Fit",
+      "color": [
+        "white",
+        "red",
+        "green"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l"
+      ],
+      "img": [
+        "https://6c819239693cc4960b69-cc9b957bf963b53239339d3141093094.lmsin.net/1000008775331-Beige-Beige-1000008775331_01-345.jpg",
+        "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000008595631-Green-Green-1000008595631_01-2100.jpg",
+        "https://6c819239693cc4960b69-cc9b957bf963b53239339d3141093094.lmsin.net/1000008545858-Blue-Navy-1000008545858_01-345.jpg"
       ]
     }
   ],
