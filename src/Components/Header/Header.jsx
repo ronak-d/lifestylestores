@@ -23,19 +23,19 @@ import axiosApiCall from '../Axios/AxiosCall';
                 <div className={styles.h_top_bar}>
                     <span className={styles.text_top}>
                         <img className={styles.icon} src="https://cdn-icons-png.flaticon.com/128/617/617423.png" alt="" />
-                        <h5>Free Shipping</h5>
+                        <h5 className={styles.nav_text}>Free Shipping</h5>
                     </span>
                 </div>
                 <div className={styles.h_top_bar}>
                     <span className={styles.text_top}>
                         <img className={styles.icon} src="https://cdn-icons-png.flaticon.com/128/1611/1611323.png" alt="" />
-                        <h5>Click Collect</h5>
+                        <h5 className={styles.nav_text}>Click Collect</h5>
                     </span>
                 </div>
                 <div className={styles.h_top_bar}>
                     <span className={styles.text_top}>
                         <img className={styles.icon} src="https://cdn-icons-png.flaticon.com/128/726/726570.png" alt="" />
-                        <h5>Return To Store</h5>
+                        <h5 className={styles.nav_text}>Return</h5>
                     </span>
                 </div>
             </div>
@@ -63,19 +63,19 @@ import axiosApiCall from '../Axios/AxiosCall';
                 </div>
 
                 <span className={styles.mid_nav_text}>
-                <Link to="/men"> <h4>Men</h4> </Link>
+                <Link to="/men"> <h4  className={styles.nav_text}>Men</h4> </Link>
                 </span>
 
                 <span className={styles.mid_nav_text}>
-                <Link to="/kids"> <h4>Kids</h4> </Link>
+                <Link to="/kids"> <h4  className={styles.nav_text}>Kids</h4> </Link>
                 </span>
 
                 <span className={styles.mid_nav_text}>
-                    <h4>Shops&Bags</h4>
+                    <h4  className={styles.nav_text}>Shops&Bags</h4>
                 </span>
 
                 <span className={styles.mid_nav_text}>
-                    <h4>Beauty</h4>
+                    <h4  className={styles.nav_text}>Beauty</h4>
                 </span>
 
             </div>
@@ -84,14 +84,14 @@ import axiosApiCall from '../Axios/AxiosCall';
 
                 <input className={styles.search_bar} type="text" placeholder="What are you looking for?" />
 
-                <span className={styles.mid_nav_text}>
-                    <h4>Sign Up-Sign In</h4>
+                <span className={styles.mid_nav_text_unique}>
+                    <h4  className={styles.nav_text}>Sign Up-Sign In</h4>
                 </span>
 
                 <span className={styles.text_basket}>
                     <img className={styles.basket} src="https://cdn-icons-png.flaticon.com/512/37/37464.png" />
                     <Link to="/cart">
-                    <h4>Basket</h4>
+                    <h4  className={styles.nav_text}>Basket</h4>
                     </Link>
                     <p className={styles.basket_count}>{cartItem?.length}</p>
                 </span>

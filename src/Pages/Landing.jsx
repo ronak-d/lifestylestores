@@ -89,13 +89,13 @@ const Landing = () =>{
        <div className='homecircle'>
 
         {Circledata.map((e) => (
-                <div className='homeCircleinner'>
-                <>
-                    <img className='homeCircleimg' src={e.image} alt=""></img>
-                    <h5>{e.title}</h5>
-                </>
-                </div>
-                ))}
+            <div className='homeCircleinner'>
+            <>
+                <img className='homeCircleimg' src={e.image} alt=""></img>
+                <h5>{e.title}</h5>
+            </>
+            </div>
+        ))}
         </div>
 
         <hr  className="imgC"></hr>
@@ -103,12 +103,12 @@ const Landing = () =>{
 
         <div className='homeSquare'>
         {Squaredata.map((e) => (
-                <div className='homeSquareinner'>
-             
-                    <img className='homeSquareimg' src={e.image} alt=""></img>   
-               
-                </div>
-                ))}
+            <div className='homeSquareinner'>
+            
+                <img className='homeSquareimg' src={e.image} alt=""></img>   
+            
+            </div>
+        ))}
         </div>
 
         <hr  className="imgC"></hr>
@@ -121,12 +121,12 @@ const Landing = () =>{
         
         <div className='homeSquare'>
         {Squaredata2.map((e) => (
-                <div className='homeSquareinner'>
-             
-                    <img className='homeSquareimg2' src={e.image} alt=""></img>   
-               
-                </div>
-                ))}
+            <div className='homeSquareinner'>
+            
+                <img className='homeSquareimg2' src={e.image} alt=""></img>   
+            
+            </div>
+        ))}
         </div>
 
         <hr  className="imgC"></hr>
@@ -135,12 +135,12 @@ const Landing = () =>{
         
         <div className='homeSquare'>
         {Squaredata3.map((e) => (
-                <div className='homeSquareinner'>
-             
-                    <img className='homeSquareimg2' src={e.image} alt=""></img>   
-               
-                </div>
-                ))}
+            <div className='homeSquareinner'>
+            
+                <img className='homeSquareimg2' src={e.image} alt=""></img>   
+            
+            </div>
+        ))}
         </div>
   
         <hr  className="imgC"></hr>
@@ -148,12 +148,12 @@ const Landing = () =>{
 
         <div className='homeSquare'>
         {Squaredata4.map((e) => (
-                <div className='homeSquareinner'>
-             
-                    <img className='homeSquareimg2' src={e.image} alt=""></img>   
-               
-                </div>
-                ))}
+            <div className='homeSquareinner'>
+            
+                <img className='homeSquareimg2' src={e.image} alt=""></img>   
+            
+            </div>
+        ))}
         </div>
   
         <hr  className="imgC"></hr>
@@ -164,12 +164,12 @@ const Landing = () =>{
         <h1 className="textc">Fashion Favourites</h1>
         <div className='homeSquare'>
         {Squaredata5.map((e) => (
-                <div className='homeSquareinner'>
-             
-                    <img className='homeSquareimgX' src={e.image} alt=""></img>   
-               
-                </div>
-                ))}
+            <div className='homeSquareinner'>
+            
+                <img className='homeSquareimgX' src={e.image} alt=""></img>   
+            
+            </div>
+        ))}
         </div>
         <hr  className="imgC"></hr>
 
@@ -177,12 +177,12 @@ const Landing = () =>{
         <div className='homeSquare'>
     
         {Squaredata6.map((e) => (
-                <div className='homeSquareinner'>
-             
-                    <img className='homeSquareimgX' src={e.image} alt=""></img>   
-               
-                </div>
-                ))}
+            <div className='homeSquareinner'>
+            
+                <img className='homeSquareimgX' src={e.image} alt=""></img>   
+            
+            </div>
+        ))};
         </div>
 
        
@@ -191,12 +191,12 @@ const Landing = () =>{
        
         <div className='homeSquare'>
         {Squaredata7.map((e) => (
-                <div className='homeSquareinner'>
-             
-                    <img className='homeSquareimg2' src={e.image} alt=""></img>   
-               
-                </div>
-                ))}
+            <div className='homeSquareinner'>
+            
+                <img className='homeSquareimg2' src={e.image} alt=""></img>   
+            
+            </div>
+        ))}
         </div>
 
 

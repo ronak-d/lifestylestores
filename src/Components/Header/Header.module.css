@@ -60,13 +60,14 @@
     /* border:2px solid rgb(205, 85, 85); */
     display:flex;
     justify-content: space-between;
-    /* width:100%; */
+    width:99%;
     height:60px;
     
 }
 .mid_nav h4{
     font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
     text-decoration: none;
+    /* border: 2px solid black; */
 }
 
 .logo{
@@ -78,13 +79,12 @@
     /* border:2px solid rgb(50, 40, 193); */
     display:flex;
     align-items:center;
+    width:60%;
 }
 .mid_nav2{
     /* border:2px solid rgb(141, 117, 117); */
-    flex: 1;
+    width: 38%;
     display:flex;
-    /* justify-content: flex-end; */
-    /* align-items:center; */
     
 }
 .basket{
@@ -100,29 +100,34 @@
 }
 .mid_nav_text{
     /* border:1px solid black; */
-    padding-right: 1rem;
-    padding-left: 1rem;
-
+    padding: 0px 1rem;
+}
+.mid_nav_text_unique{
+    font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
 }
 .search_bar{
-    width: 60%;
+    width: 50%;
     height: 50%;
-    margin-top:10px;
+    margin:10px 16px 0px 0px;
 }
 .basket_count{
     /* border:2px solid red; */
     font-weight: bold;
-    width: 50%;
+    width: 60%;
     height: 60%;
 }
 .nav_text{
     font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-    text-decoration: none;
+    font-size: 18px;
     /* border:1px solid black; */
+    cursor: pointer;
+    text-align: center;
 }
 /* --------  */
-/* ////////// */
-
 .nav_3rd_line{
     height:35px;
     /* border: 1px solid black; */
@@ -130,5 +135,5 @@
     color:white;
     text-align:center;
     font-weight: bold;
-    padding:9px 0px 0px 0px;
+    padding:3px 0px 0px 0px;
 }
