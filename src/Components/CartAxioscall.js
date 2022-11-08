@@ -6,7 +6,3 @@ export const handleClick = (data) => {
       console.log("response")
     })
 }
-
-
-
-
